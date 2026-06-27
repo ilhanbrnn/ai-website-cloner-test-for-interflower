@@ -1,0 +1,1503 @@
+{
+  "images": [
+    {
+      "alt": "flower",
+      "cls": "size-full object-cover",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.cdeb15e7.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 0,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "size-15 sm:size-20 md:size-25 xl:size-30",
+      "section": 1,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.cdeb15e7.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "80px",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 97,
+          "w": 97,
+          "x": 365,
+          "y": 940
+        },
+        "transform": "none",
+        "width": "80px",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "alt": "text-slider",
+      "cls": "object-cover drop-shadow-2xl",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.1f2a55bd.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 1,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 || size-30 sm:size-54 md:size-70 lg:size-100 xl:size-125",
+      "section": 2,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.1f2a55bd.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "drop-shadow(rgba(0, 0, 0, 0.15) 0px 25px 25px)",
+        "height": "216px",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 295,
+          "w": 295,
+          "x": 242,
+          "y": 1345
+        },
+        "transform": "none",
+        "width": "216px",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "alt": "Youtube Thumbnail",
+      "cls": "size-full object-cover absolute inset-0 rounded-border-radius-lg",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=https%3A%2F%2Fadmin.duyvenvoorde.nl%2Fstorage%2Fassets%2FCultuur%2FYoutube-Thumbnail.jpg&w=2048&q=90",
+      "i": 2,
+      "natural": {
+        "h": 1297,
+        "w": 2000
+      },
+      "parentCls": "absolute inset-0 bg-tint rounded-border-radius-lg",
+      "section": 3,
+      "src": "https://duyvenvoorde.nl/_next/image?url=https%3A%2F%2Fadmin.duyvenvoorde.nl%2Fstorage%2Fassets%2FCultuur%2FYoutube-Thumbnail.jpg&w=3840&q=90",
+      "style": {
+        "filter": "none",
+        "height": "584.25px",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 584,
+          "w": 584,
+          "x": 97,
+          "y": 2075
+        },
+        "transform": "none",
+        "width": "584.25px",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.dcb063b8.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 3,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.dcb063b8.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 325,
+          "y": 5209
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.1ffec2ae.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 4,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.1ffec2ae.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 91,
+          "y": 5159
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.79a63e77.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 5,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.79a63e77.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": -103,
+          "y": 5018
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 6,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": -223,
+          "y": 4811
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 7,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": -248,
+          "y": 4572
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.c9d133a8.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 8,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.c9d133a8.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": -174,
+          "y": 4344
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e82e1573.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 9,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e82e1573.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": -13,
+          "y": 4166
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.2b3f84d6.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 10,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.2b3f84d6.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 206,
+          "y": 4069
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.6dd10411.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 11,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.6dd10411.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 445,
+          "y": 4069
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.42270bb6.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 12,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.42270bb6.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 664,
+          "y": 4166
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.c9d133a8.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 13,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.c9d133a8.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 825,
+          "y": 4344
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e0d2ae2b.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 14,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e0d2ae2b.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 899,
+          "y": 4572
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.9744c519.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 15,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.9744c519.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 874,
+          "y": 4811
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 16,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 754,
+          "y": 5018
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.42270bb6.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 17,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.42270bb6.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "128.094px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 128,
+          "w": 128,
+          "x": 560,
+          "y": 5159
+        },
+        "transform": "none",
+        "width": "128.094px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.1bb85467.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 18,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.1bb85467.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 537,
+          "y": 4261
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.1ffec2ae.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 19,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.1ffec2ae.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 669,
+          "y": 4380
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.2b3f84d6.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 20,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.2b3f84d6.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 742,
+          "y": 4542
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 21,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 742,
+          "y": 4720
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 22,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 669,
+          "y": 4882
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.1bb85467.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 23,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.1bb85467.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 537,
+          "y": 5001
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.c4b4dbbc.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 24,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.c4b4dbbc.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 369,
+          "y": 5056
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.9744c519.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 25,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.9744c519.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 192,
+          "y": 5037
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 26,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 38,
+          "y": 4948
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 27,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": -66,
+          "y": 4805
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.1bb85467.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 28,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.1bb85467.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": -103,
+          "y": 4631
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e0d2ae2b.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 29,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.e0d2ae2b.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": -66,
+          "y": 4457
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.9744c519.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 30,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.9744c519.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 38,
+          "y": 4314
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.6dd10411.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 31,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.6dd10411.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 192,
+          "y": 4225
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 32,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "96.0625px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 131,
+          "w": 131,
+          "x": 369,
+          "y": 4206
+        },
+        "transform": "none",
+        "width": "96.0625px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.1f2a55bd.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 33,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.1f2a55bd.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 533,
+          "y": 4840
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.c4b4dbbc.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 34,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.c4b4dbbc.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 440,
+          "y": 4900
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.9744c519.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 35,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.9744c519.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 330,
+          "y": 4918
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.68df25b0.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 36,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.68df25b0.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 223,
+          "y": 4889
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 37,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 137,
+          "y": 4819
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.dcb063b8.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 38,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.dcb063b8.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 86,
+          "y": 4720
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.c4b4dbbc.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 39,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.c4b4dbbc.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 81,
+          "y": 4610
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.2b3f84d6.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 40,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.2b3f84d6.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 120,
+          "y": 4506
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 41,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.4bee62ad.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 199,
+          "y": 4427
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 42,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 302,
+          "y": 4388
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.1bb85467.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 43,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.1bb85467.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 413,
+          "y": 4393
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e82e1573.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 44,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.e82e1573.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 512,
+          "y": 4444
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.79a63e77.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 45,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.79a63e77.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 582,
+          "y": 4530
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.68df25b0.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 46,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.68df25b0.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 611,
+          "y": 4637
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "",
+      "cls": "relative z-10",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 47,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "absolute",
+      "section": 5,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.25c08641.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "64.0469px",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 91,
+          "w": 91,
+          "x": 593,
+          "y": 4747
+        },
+        "transform": "none",
+        "width": "64.0469px",
+        "zIndex": "10"
+      }
+    },
+    {
+      "alt": "flower",
+      "cls": "size-full object-cover",
+      "currentSrc": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.6870d19b.png&w=828&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "i": 48,
+      "natural": {
+        "h": 794,
+        "w": 794
+      },
+      "parentCls": "size-15 sm:size-20 md:size-25 xl:size-30",
+      "section": 6,
+      "src": "https://duyvenvoorde.nl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.6870d19b.png&w=3840&q=90&dpl=dpl_TuqJN6DFT6WhZUizoFHQAFo5AMR1",
+      "style": {
+        "filter": "none",
+        "height": "80px",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 80,
+          "w": 80,
+          "x": 593,
+          "y": 5684
+        },
+        "transform": "none",
+        "width": "80px",
+        "zIndex": "auto"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "autoplay": true,
+      "cls": "size-full object-cover absolute inset-0",
+      "i": 0,
+      "loop": true,
+      "muted": true,
+      "poster": "",
+      "section": 0,
+      "src": "https://admin.duyvenvoorde.nl/storage/assets/Videos/Duyvenvoorde-Headervideo-HQ-9x16-v4.mp4",
+      "style": {
+        "filter": "none",
+        "height": "768.594px",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "position": "absolute",
+        "rect": {
+          "h": 769,
+          "w": 779,
+          "x": 0,
+          "y": 0
+        },
+        "transform": "none",
+        "width": "779px",
+        "zIndex": "auto"
+      }
+    }
+  ]
+}

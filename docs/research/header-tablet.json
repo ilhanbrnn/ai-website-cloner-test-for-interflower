@@ -1,0 +1,855 @@
+{
+  "aria": null,
+  "children": [
+    {
+      "aria": null,
+      "children": [
+        {
+          "aria": "Home",
+          "children": [
+            {
+              "aria": null,
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "path",
+                  "text": null
+                }
+              ],
+              "classes": "w-42 lg:w-60",
+              "href": null,
+              "styles": {
+                "border": "0px solid rgb(247, 246, 243)",
+                "color": "rgb(247, 246, 243)",
+                "cursor": "pointer",
+                "display": "block",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "height": "34px",
+                "lineHeight": "24px",
+                "opacity": "1",
+                "overflow": "hidden",
+                "position": "static",
+                "rect": {
+                  "h": 34,
+                  "w": 168,
+                  "x": 98,
+                  "y": 13
+                },
+                "transition": "all",
+                "width": "168px"
+              },
+              "tag": "svg",
+              "text": null
+            }
+          ],
+          "classes": "",
+          "href": "/en",
+          "styles": {
+            "border": "0px solid rgb(247, 246, 243)",
+            "color": "rgb(247, 246, 243)",
+            "cursor": "pointer",
+            "display": "block",
+            "flexDirection": "row",
+            "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "height": "34px",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "static",
+            "rect": {
+              "h": 34,
+              "w": 168,
+              "x": 98,
+              "y": 13
+            },
+            "transition": "all",
+            "width": "168px"
+          },
+          "tag": "a",
+          "text": null
+        },
+        {
+          "aria": null,
+          "children": [
+            {
+              "aria": null,
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "absolute -bottom-0.5 left-0 h-px w-full scale-x-0 origin-center || group-hover:scale-x-100 || transition-transform duration-300",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "div",
+                  "text": null
+                }
+              ],
+              "classes": "group || relative inline-block || text-primary font-secondary text-link font-medium leading-[1.5] || transition-all duration-300",
+              "href": "/en/our-approach",
+              "styles": {
+                "border": "0px solid rgb(247, 246, 243)",
+                "color": "rgb(247, 246, 243)",
+                "cursor": "pointer",
+                "display": "inline-block",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "15.8083px",
+                "fontWeight": "500",
+                "lineHeight": "23.7125px",
+                "opacity": "1",
+                "overflow": "visible",
+                "position": "relative",
+                "rect": {
+                  "h": 0,
+                  "w": 0,
+                  "x": 0,
+                  "y": 0
+                },
+                "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+              },
+              "tag": "a",
+              "text": null
+            },
+            {
+              "aria": null,
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "absolute -bottom-0.5 left-0 h-px w-full scale-x-0 origin-center || group-hover:scale-x-100 || transition-transform duration-300",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "div",
+                  "text": null
+                }
+              ],
+              "classes": "group || relative inline-block || text-primary font-secondary text-link font-medium leading-[1.5] || transition-all duration-300",
+              "href": "/en/our-products",
+              "styles": {
+                "border": "0px solid rgb(247, 246, 243)",
+                "color": "rgb(247, 246, 243)",
+                "cursor": "pointer",
+                "display": "inline-block",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "15.8083px",
+                "fontWeight": "500",
+                "lineHeight": "23.7125px",
+                "opacity": "1",
+                "overflow": "visible",
+                "position": "relative",
+                "rect": {
+                  "h": 0,
+                  "w": 0,
+                  "x": 0,
+                  "y": 0
+                },
+                "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+              },
+              "tag": "a",
+              "text": null
+            },
+            {
+              "aria": null,
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "absolute -bottom-0.5 left-0 h-px w-full scale-x-0 origin-center || group-hover:scale-x-100 || transition-transform duration-300",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "div",
+                  "text": null
+                }
+              ],
+              "classes": "group || relative inline-block || text-primary font-secondary text-link font-medium leading-[1.5] || transition-all duration-300",
+              "href": "/en/inspiration",
+              "styles": {
+                "border": "0px solid rgb(247, 246, 243)",
+                "color": "rgb(247, 246, 243)",
+                "cursor": "pointer",
+                "display": "inline-block",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "15.8083px",
+                "fontWeight": "500",
+                "lineHeight": "23.7125px",
+                "opacity": "1",
+                "overflow": "visible",
+                "position": "relative",
+                "rect": {
+                  "h": 0,
+                  "w": 0,
+                  "x": 0,
+                  "y": 0
+                },
+                "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+              },
+              "tag": "a",
+              "text": null
+            },
+            {
+              "aria": null,
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "absolute -bottom-0.5 left-0 h-px w-full scale-x-0 origin-center || group-hover:scale-x-100 || transition-transform duration-300",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "div",
+                  "text": null
+                }
+              ],
+              "classes": "group || relative inline-block || text-primary font-secondary text-link font-medium leading-[1.5] || transition-all duration-300",
+              "href": "/en/about-us",
+              "styles": {
+                "border": "0px solid rgb(247, 246, 243)",
+                "color": "rgb(247, 246, 243)",
+                "cursor": "pointer",
+                "display": "inline-block",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "15.8083px",
+                "fontWeight": "500",
+                "lineHeight": "23.7125px",
+                "opacity": "1",
+                "overflow": "visible",
+                "position": "relative",
+                "rect": {
+                  "h": 0,
+                  "w": 0,
+                  "x": 0,
+                  "y": 0
+                },
+                "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+              },
+              "tag": "a",
+              "text": null
+            },
+            {
+              "aria": null,
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "absolute -bottom-0.5 left-0 h-px w-full scale-x-0 origin-center || group-hover:scale-x-100 || transition-transform duration-300",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "div",
+                  "text": null
+                }
+              ],
+              "classes": "group || relative inline-block || text-primary font-secondary text-link font-medium leading-[1.5] || transition-all duration-300",
+              "href": "/en/careers",
+              "styles": {
+                "border": "0px solid rgb(247, 246, 243)",
+                "color": "rgb(247, 246, 243)",
+                "cursor": "pointer",
+                "display": "inline-block",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "15.8083px",
+                "fontWeight": "500",
+                "lineHeight": "23.7125px",
+                "opacity": "1",
+                "overflow": "visible",
+                "position": "relative",
+                "rect": {
+                  "h": 0,
+                  "w": 0,
+                  "x": 0,
+                  "y": 0
+                },
+                "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+              },
+              "tag": "a",
+              "text": null
+            },
+            {
+              "aria": null,
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "absolute -bottom-0.5 left-0 h-px w-full scale-x-0 origin-center || group-hover:scale-x-100 || transition-transform duration-300",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "div",
+                  "text": null
+                }
+              ],
+              "classes": "group || relative inline-block || text-primary font-secondary text-link font-medium leading-[1.5] || transition-all duration-300",
+              "href": "/en/contact",
+              "styles": {
+                "border": "0px solid rgb(247, 246, 243)",
+                "color": "rgb(247, 246, 243)",
+                "cursor": "pointer",
+                "display": "inline-block",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "15.8083px",
+                "fontWeight": "500",
+                "lineHeight": "23.7125px",
+                "opacity": "1",
+                "overflow": "visible",
+                "position": "relative",
+                "rect": {
+                  "h": 0,
+                  "w": 0,
+                  "x": 0,
+                  "y": 0
+                },
+                "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+              },
+              "tag": "a",
+              "text": null
+            }
+          ],
+          "classes": "items-center justify-center flex-1 gap-5 xl:gap-7.5 2xl:gap-10 hidden lg:flex",
+          "href": null,
+          "styles": {
+            "alignItems": "center",
+            "border": "0px solid rgb(247, 246, 243)",
+            "color": "rgb(247, 246, 243)",
+            "flexDirection": "row",
+            "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "gap": "20px",
+            "justifyContent": "center",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "static",
+            "rect": {
+              "h": 0,
+              "w": 0,
+              "x": 0,
+              "y": 0
+            },
+            "transition": "all"
+          },
+          "tag": "div",
+          "text": null
+        },
+        {
+          "aria": null,
+          "children": [
+            {
+              "aria": null,
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "text-primary/50 text-button-sm font-normal leading-[1] font-secondary uppercase block || transition-colors duration-300 hover:text-brand-primary",
+                  "href": "https://duyvenvoorde.nl/",
+                  "styles": "[MaxDepth]",
+                  "tag": "a",
+                  "text": "nl"
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "mx-1.5 md:mx-2 lg:mx-2.5 || w-px h-4 md:h-5 lg:h-6 inline-block bg-tint",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "span",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "text-button-sm font-normal leading-[1] font-secondary uppercase block || transition-colors duration-300 hover:text-brand-primary text-brand-primary",
+                  "href": "https://duyvenvoorde.nl/en",
+                  "styles": "[MaxDepth]",
+                  "tag": "a",
+                  "text": "en"
+                }
+              ],
+              "classes": "flex items-center",
+              "href": null,
+              "styles": {
+                "alignItems": "center",
+                "border": "0px solid rgb(247, 246, 243)",
+                "color": "rgb(247, 246, 243)",
+                "display": "flex",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "height": "16px",
+                "lineHeight": "24px",
+                "opacity": "1",
+                "overflow": "visible",
+                "position": "static",
+                "rect": {
+                  "h": 16,
+                  "w": 44,
+                  "x": 443,
+                  "y": 22
+                },
+                "transition": "all",
+                "width": "43.5469px"
+              },
+              "tag": "div",
+              "text": null
+            },
+            {
+              "aria": "button",
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "flex items-center justify-center || relative || size-5 md:size-5 lg:size-6",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "span",
+                  "text": null
+                }
+              ],
+              "classes": "group/button inline-flex items-center justify-center || font-secondary leading-[1.5] whitespace-nowrap || cursor-pointer || max-w-fit ring-offset-background transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-button-brand-primary text-contrast gap-1.75 lg:gap-2.5 font-normal h-7 md:h-9 lg:h-11 || pl-2.5",
+              "href": "https://shop.duyvenvoorde.nl/en-gb",
+              "styles": {
+                "alignItems": "center",
+                "backgroundColor": "rgb(255, 85, 0)",
+                "border": "0px solid rgb(255, 255, 255)",
+                "borderRadius": "20px",
+                "color": "rgb(255, 255, 255)",
+                "cursor": "pointer",
+                "display": "flex",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "13.8083px",
+                "fontWeight": "400",
+                "gap": "7px",
+                "height": "28px",
+                "justifyContent": "center",
+                "lineHeight": "20.7125px",
+                "opacity": "1",
+                "overflow": "visible",
+                "padding": "0px 5px 0px 10px",
+                "position": "relative",
+                "rect": {
+                  "h": 28,
+                  "w": 92,
+                  "x": 506,
+                  "y": 16
+                },
+                "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+                "width": "92.2812px"
+              },
+              "tag": "a",
+              "text": null
+            }
+          ],
+          "classes": "hidden sm:flex items-center gap-5 2xl:gap-7.5 || ml-auto",
+          "href": null,
+          "styles": {
+            "alignItems": "center",
+            "border": "0px solid rgb(247, 246, 243)",
+            "color": "rgb(247, 246, 243)",
+            "display": "flex",
+            "flexDirection": "row",
+            "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "gap": "20px",
+            "height": "28px",
+            "lineHeight": "24px",
+            "margin": "0px 0px 0px 166.172px",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "static",
+            "rect": {
+              "h": 28,
+              "w": 156,
+              "x": 443,
+              "y": 16
+            },
+            "transition": "all",
+            "width": "155.828px"
+          },
+          "tag": "div",
+          "text": null
+        },
+        {
+          "aria": null,
+          "children": [
+            {
+              "aria": "button",
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "flex items-center justify-center || relative || size-5 md:size-5 lg:size-6",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "span",
+                  "text": null
+                }
+              ],
+              "classes": "group/button inline-flex items-center justify-center || font-secondary leading-[1.5] whitespace-nowrap || cursor-pointer || max-w-fit ring-offset-background transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-button-secondary text-primary gap-1.75 lg:gap-2.5 font-normal h-7 md:h-9 lg:h-11 || pl-2.5",
+              "href": null,
+              "styles": {
+                "alignItems": "center",
+                "backgroundColor": "rgb(57, 49, 40)",
+                "border": "0px solid rgb(247, 246, 243)",
+                "borderRadius": "20px",
+                "color": "rgb(247, 246, 243)",
+                "cursor": "pointer",
+                "display": "inline-flex",
+                "flexDirection": "row",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "13.8083px",
+                "fontWeight": "400",
+                "gap": "7px",
+                "height": "28px",
+                "justifyContent": "center",
+                "lineHeight": "20.7125px",
+                "opacity": "1",
+                "overflow": "visible",
+                "padding": "0px 5px 0px 10px",
+                "position": "relative",
+                "rect": {
+                  "h": 28,
+                  "w": 72,
+                  "x": 608,
+                  "y": 16
+                },
+                "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+                "width": "72.25px"
+              },
+              "tag": "button",
+              "text": null
+            }
+          ],
+          "classes": "lg:hidden ml-auto sm:ml-0",
+          "href": null,
+          "styles": {
+            "border": "0px solid rgb(247, 246, 243)",
+            "color": "rgb(247, 246, 243)",
+            "display": "block",
+            "flexDirection": "row",
+            "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "height": "28px",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "position": "static",
+            "rect": {
+              "h": 28,
+              "w": 72,
+              "x": 608,
+              "y": 16
+            },
+            "transition": "all",
+            "width": "72.25px"
+          },
+          "tag": "div",
+          "text": null
+        }
+      ],
+      "classes": "col-start-2 || col-end-[-2] || sm:col-start-3 || sm:col-end-[-3] || lg:col-start-2 || lg:col-end-[-2] -mx-2 sm:-mx-3.75 md:mx-0 || theme-dark || h-15 lg:h-21 || gap-x-2.5 || px-3.75 lg:px-7.5 border-b border-r border-l border-tint rounded-b-[14px] ||",
+      "href": null,
+      "styles": {
+        "alignItems": "center",
+        "backgroundColor": "rgb(20, 20, 20)",
+        "borderRadius": "0px 0px 14px 14px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 143px 40px 0px, rgba(0, 0, 0, 0.01) 0px 92px 37px 0px, rgba(0, 0, 0, 0.05) 0px 52px 31px 0px, rgba(0, 0, 0, 0.09) 0px 23px 23px 0px, rgba(0, 0, 0, 0.1) 0px 6px 13px 0px",
+        "color": "rgb(247, 246, 243)",
+        "display": "flex",
+        "flexDirection": "row",
+        "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "gap": "normal 10px",
+        "height": "60px",
+        "lineHeight": "24px",
+        "margin": "0px -15px",
+        "opacity": "1",
+        "overflow": "visible",
+        "padding": "0px 15px",
+        "position": "static",
+        "rect": {
+          "h": 60,
+          "w": 614,
+          "x": 82,
+          "y": 0
+        },
+        "transition": "0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+        "width": "614.25px"
+      },
+      "tag": "div",
+      "text": null
+    },
+    {
+      "aria": null,
+      "children": [
+        {
+          "aria": null,
+          "children": [
+            {
+              "aria": null,
+              "children": [
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "flex flex-col gap-8",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "div",
+                  "text": null
+                },
+                {
+                  "aria": null,
+                  "children": "[MaxDepth]",
+                  "classes": "flex sm:hidden items-center justify-between",
+                  "href": null,
+                  "styles": "[MaxDepth]",
+                  "tag": "div",
+                  "text": null
+                }
+              ],
+              "classes": "h-full || px-8 || flex flex-col gap-y-18",
+              "href": null,
+              "styles": {
+                "border": "0px solid rgb(247, 246, 243)",
+                "color": "rgb(247, 246, 243)",
+                "display": "flex",
+                "flexDirection": "column",
+                "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "gap": "72px normal",
+                "height": "357.797px",
+                "lineHeight": "24px",
+                "opacity": "1",
+                "overflow": "visible",
+                "padding": "0px 32px",
+                "position": "static",
+                "rect": {
+                  "h": 358,
+                  "w": 580,
+                  "x": 99,
+                  "y": -460
+                },
+                "transition": "all",
+                "width": "580.25px"
+              },
+              "tag": "div",
+              "text": null
+            }
+          ],
+          "classes": "col-start-2 || col-end-[-2] || sm:col-start-3 || sm:col-end-[-3] || lg:col-start-2 || lg:col-end-[-2] transition-all duration-500 ease-fast-in-out || theme-dark bg-primary rounded-b-[14px] || border-b border-r border-l border-tint || pt-32 pb-12 px-4 || will-change-transform [box-shadow:0px_143px_40px_0px_rgba(0,_0,_0,_0.00),_0px_92px_37px_0px_rgba(0,_0,_0,_0.01),_0px_52px_31px_0px_rgba(0,_0,_0,_0.05),_0px_23px_23px_0px_rgba(0,_0,_0,_0.09),_0px_6px_13px_0px_rgba(0,_0,_0,_0.10)]",
+          "href": null,
+          "styles": {
+            "backgroundColor": "rgb(20, 20, 20)",
+            "borderRadius": "0px 0px 14px 14px",
+            "boxShadow": "rgba(0, 0, 0, 0) 0px 143px 40px 0px, rgba(0, 0, 0, 0.01) 0px 92px 37px 0px, rgba(0, 0, 0, 0.05) 0px 52px 31px 0px, rgba(0, 0, 0, 0.09) 0px 23px 23px 0px, rgba(0, 0, 0, 0.1) 0px 6px 13px 0px",
+            "color": "rgb(247, 246, 243)",
+            "display": "block",
+            "flexDirection": "row",
+            "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "height": "534.797px",
+            "lineHeight": "24px",
+            "opacity": "1",
+            "overflow": "visible",
+            "padding": "128px 16px 48px",
+            "position": "static",
+            "rect": {
+              "h": 535,
+              "w": 614,
+              "x": 82,
+              "y": -588
+            },
+            "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+            "width": "614.25px"
+          },
+          "tag": "div",
+          "text": null
+        }
+      ],
+      "classes": "grid grid-cols-[0.5fr_repeat(10,1fr)_0.5fr] sm:grid-cols-16 lg:grid-cols-20 xl:grid-cols-24 -mx-2.5 sm:-mx-5 || fixed top-0 left-0 right-0 z-[-1] invisible",
+      "href": null,
+      "styles": {
+        "border": "0px solid rgb(20, 20, 20)",
+        "bottom": "319.203px",
+        "color": "rgb(20, 20, 20)",
+        "display": "grid",
+        "flexDirection": "row",
+        "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "gridTemplateColumns": "51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px 51.1875px",
+        "height": "534.797px",
+        "lineHeight": "24px",
+        "margin": "0px -20px",
+        "opacity": "1",
+        "overflow": "visible",
+        "position": "fixed",
+        "rect": {
+          "h": 535,
+          "w": 819,
+          "x": -20,
+          "y": 0
+        },
+        "transition": "all",
+        "width": "819px",
+        "zIndex": "-1"
+      },
+      "tag": "nav",
+      "text": null
+    }
+  ],
+  "classes": "grid grid-cols-[0.5fr_repeat(10,1fr)_0.5fr] sm:grid-cols-16 lg:grid-cols-20 xl:grid-cols-24 fixed top-0 left-0 right-0 z-[52]",
+  "href": null,
+  "styles": {
+    "border": "0px solid rgb(20, 20, 20)",
+    "bottom": "794px",
+    "color": "rgb(20, 20, 20)",
+    "display": "grid",
+    "flexDirection": "row",
+    "fontFamily": "\"Roboto Condensed\", \"Roboto Condensed Fallback\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "gridTemplateColumns": "48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px 48.6875px",
+    "height": "60px",
+    "lineHeight": "24px",
+    "opacity": "1",
+    "overflow": "visible",
+    "position": "fixed",
+    "rect": {
+      "h": 60,
+      "w": 779,
+      "x": 0,
+      "y": 0
+    },
+    "transition": "all",
+    "width": "779px",
+    "zIndex": "52"
+  },
+  "tag": "header",
+  "text": null
+}

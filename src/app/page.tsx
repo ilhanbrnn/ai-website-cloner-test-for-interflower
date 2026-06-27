@@ -1,9 +1,25 @@
+import { CareersSection } from "@/components/CareersSection";
+import { HeroSection } from "@/components/HeroSection";
+import { IntroSlider } from "@/components/IntroSlider";
+import { NetworkSection } from "@/components/NetworkSection";
+import { ProductsSection } from "@/components/ProductsSection";
+import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "@/components/SiteHeader";
+import { WebshopSection } from "@/components/WebshopSection";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
+    <>
+      <SiteHeader />
+      <main>
+        <HeroSection />
+        <IntroSlider />
+        <ProductsSection />
+        <NetworkSection />
+        <WebshopSection />
+        <CareersSection />
+      </main>
+      <SiteFooter />
+    </>
   );
 }
