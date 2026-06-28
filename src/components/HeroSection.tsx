@@ -5,30 +5,34 @@ export function HeroSection({ id }: { id: string }) {
     <section
       id={id}
       aria-labelledby="hero-heading"
-      className="relative h-[90svh] min-h-[620px] overflow-hidden bg-[#141414] lg:h-svh lg:min-h-[720px]"
+      className="relative h-[100dvh] min-h-[620px] overflow-hidden bg-[#141414] lg:h-svh lg:min-h-[720px]"
     >
       <video
         className="absolute inset-0 size-full object-cover lg:hidden"
         autoPlay
-        loop
         muted
         playsInline
         preload="auto"
         aria-hidden="true"
       >
-        <source src="/videos/hero-mobile.mp4" type="video/mp4" />
+        <source
+          src="/videos/interflower/01-filizden-gule-hero-mobile.mp4"
+          type="video/mp4"
+        />
       </video>
 
       <video
         className="absolute inset-0 hidden size-full object-cover lg:block"
         autoPlay
-        loop
         muted
         playsInline
         preload="auto"
         aria-hidden="true"
       >
-        <source src="/videos/hero-desktop.mp4" type="video/mp4" />
+        <source
+          src="/videos/interflower/01-filizden-gule-hero-desktop.mp4"
+          type="video/mp4"
+        />
       </video>
 
       <div className="absolute inset-0 z-10 bg-black/20" aria-hidden="true" />
