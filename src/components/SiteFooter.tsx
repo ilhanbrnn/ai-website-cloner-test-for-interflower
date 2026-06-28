@@ -9,7 +9,6 @@ import {
 
 const menuLinks = [
   { label: "Our approach", href: "/en/our-approach" },
-  { label: "Careers", href: "/en/careers" },
   { label: "Inspiration", href: "/en/inspiration" },
   { label: "Our products", href: "/en/our-products" },
   { label: "About us", href: "/en/about-us" },

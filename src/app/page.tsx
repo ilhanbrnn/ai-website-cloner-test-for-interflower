@@ -1,4 +1,3 @@
-import { CareersSection } from "@/components/CareersSection";
 import { HeroSection } from "@/components/HeroSection";
 import { IntroSlider } from "@/components/IntroSlider";
 import { NetworkSection } from "@/components/NetworkSection";
@@ -17,7 +16,6 @@ export default function Home() {
         <ProductsSection id="hizmetler" />
         <NetworkSection id="neden-interflower" />
         <WebshopSection id="siparis" />
-        <CareersSection />
       </main>
       <SiteFooter id="iletisim" />
     </>
