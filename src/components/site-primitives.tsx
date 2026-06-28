@@ -1,25 +1,28 @@
-import Image from "next/image";
 import Link from "next/link";
+import type { ComponentPropsWithoutRef } from "react";
 
 import { ArrowRightIcon, CircleMarkIcon } from "@/components/icons";
 import { cn } from "@/lib/utils";
 
-interface BrandButtonProps {
+interface BrandButtonProps
+  extends Omit<
+    ComponentPropsWithoutRef<typeof Link>,
+    "children" | "className"
+  > {
   children: React.ReactNode;
   className?: string;
-  href: string;
   inverted?: boolean;
 }
 
 export function BrandButton({
   children,
   className,
-  href,
   inverted = false,
+  ...linkProps
 }: BrandButtonProps) {
   return (
     <Link
-      href={href}
+      {...linkProps}
       className={cn(
         "group inline-flex w-fit items-center gap-2 rounded-full px-4 py-2.5 font-body text-[15px] leading-none transition-colors duration-300",
         inverted
@@ -52,23 +55,6 @@ export function SectionLabel({ children, className }: SectionLabelProps) {
     >
       {children}
     </span>
-  );
-}
-
-interface BrandLogoProps {
-  className?: string;
-}
-
-export function BrandLogo({ className }: BrandLogoProps) {
-  return (
-    <Image
-      src="/images/source-svg-1.svg"
-      alt="Duyvenvoorde"
-      width={240}
-      height={34}
-      className={cn("h-auto w-[168px] lg:w-[240px]", className)}
-      priority
-    />
   );
 }
 

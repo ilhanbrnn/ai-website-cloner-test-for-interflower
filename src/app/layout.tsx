@@ -53,9 +53,9 @@ const robotoCondensed = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Access nature’s finest | Duyvenvoorde",
+  title: "InterFlower Çiçekçilik | Kızıltepe, Mardin",
   description:
-    "From our base at the Naaldwijk auction, we make sure every flower and plant reaches our customers in top condition. Welcome to Duyvenvoorde.",
+    "Kızıltepe ve çevresinde özel gün çiçekleri, kişiye özel buketler, organizasyon ve çiçek teslimatı.",
 };
 
 export default function RootLayout({
@@ -65,7 +65,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="tr"
       className={`${bricolage.variable} ${robotoCondensed.variable} h-full antialiased`}
     >
       <body className="min-h-full">{children}</body>

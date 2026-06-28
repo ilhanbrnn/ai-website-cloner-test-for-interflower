@@ -4,8 +4,10 @@ import Link from "next/link";
 import { useState } from "react";
 
 import { ArrowRightIcon, CircleMarkIcon } from "@/components/icons";
-import { BrandLogo } from "@/components/site-primitives";
 import { cn } from "@/lib/utils";
+
+const whatsappOrderUrl =
+  "https://wa.me/905447204686?text=Merhaba%20InterFlower%2C%20çiçek%20siparişi%20vermek%20istiyorum.";
 
 const navigationLinks = [
   { href: "#hikaye", label: "Hikâyemiz" },
@@ -15,43 +17,34 @@ const navigationLinks = [
   { href: "#iletisim", label: "İletişim" },
 ] as const;
 
-function WebshopLink({ onClick }: { onClick?: () => void }) {
+function WhatsAppOrderLink({ onClick }: { onClick?: () => void }) {
   return (
-    <Link
-      href="#siparis"
-      aria-label="Webshop"
+    <a
+      href={whatsappOrderUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="WhatsApp’tan sipariş ver"
       onClick={onClick}
-      className="group/webshop inline-flex h-7 shrink-0 items-center justify-center gap-[7px] rounded-full bg-[#ff5500] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-white transition-colors duration-150 hover:bg-[#e94e00] focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#141414] focus-visible:outline-none lg:h-11 lg:gap-2.5 lg:pr-2.5 lg:pl-5 lg:text-[18px] lg:leading-[27px]"
+      className="group/whatsapp inline-flex h-7 shrink-0 items-center justify-center gap-[7px] rounded-full bg-[#ff5500] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-white transition-colors duration-150 hover:bg-[#e94e00] focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#141414] focus-visible:outline-none lg:h-11 lg:gap-2.5 lg:pr-2.5 lg:pl-5 lg:text-[18px] lg:leading-[27px]"
     >
-      <span>Webshop</span>
+      <span>WhatsApp Sipariş</span>
       <span className="relative size-5 overflow-hidden lg:size-6">
-        <CircleMarkIcon className="absolute inset-0 size-full transition-transform duration-300 group-hover/webshop:scale-0" />
-        <ArrowRightIcon className="absolute inset-0 size-full -translate-x-full p-0.5 transition-transform duration-300 group-hover/webshop:translate-x-0" />
+        <CircleMarkIcon className="absolute inset-0 size-full transition-transform duration-300 group-hover/whatsapp:scale-0" />
+        <ArrowRightIcon className="absolute inset-0 size-full -translate-x-full p-0.5 transition-transform duration-300 group-hover/whatsapp:translate-x-0" />
       </span>
-    </Link>
+    </a>
   );
 }
 
-function LanguageLinks() {
+function TextBrand() {
   return (
-    <div className="flex h-4 shrink-0 items-center text-[13.8083px] leading-none font-normal uppercase lg:h-6 lg:text-[16px]">
-      <Link
-        href="https://duyvenvoorde.nl/"
-        className="text-[#f7f6f3]/50 transition-colors duration-300 hover:text-[#ff5500] focus-visible:outline-none"
-      >
-        NL
-      </Link>
-      <span
-        aria-hidden="true"
-        className="mx-1.5 h-4 w-px bg-[#e3dbca]/60 md:mx-2 lg:mx-2.5 lg:h-6"
-      />
-      <Link
-        href="https://duyvenvoorde.nl/en"
-        aria-current="page"
-        className="text-[#ff5500] transition-colors duration-300 hover:text-[#f7f6f3] focus-visible:outline-none"
-      >
-        EN
-      </Link>
+    <div className="flex flex-col leading-none">
+      <span className="font-heading text-[22px] font-extrabold tracking-[-0.02em] lg:text-[28px]">
+        InterFlower
+      </span>
+      <span className="mt-1 font-body text-[9px] font-medium tracking-[0.2em] text-[#f7f6f3]/65 uppercase lg:text-[10px]">
+        Çiçekçilik
+      </span>
     </div>
   );
 }
@@ -74,15 +67,15 @@ export function SiteHeader() {
         <div className="relative z-10 flex h-[60px] items-center gap-2.5 px-[15px] lg:h-[84px] lg:gap-7.5 lg:px-[30px]">
           <Link
             href="#hero"
-            aria-label="Home"
-            className="shrink-0 focus-visible:ring-2 focus-visible:ring-[#ff5500] focus-visible:outline-none"
+            aria-label="InterFlower ana sayfa"
+            className="w-[168px] shrink-0 focus-visible:ring-2 focus-visible:ring-[#ff5500] focus-visible:outline-none lg:w-[200px]"
             onClick={closeMenu}
           >
-            <BrandLogo className="w-[168px] lg:w-[240px]" />
+            <TextBrand />
           </Link>
 
           <nav
-            aria-label="Primary navigation"
+            aria-label="Ana navigasyon"
             className="hidden min-w-0 flex-1 items-center justify-center gap-5 lg:flex xl:gap-7.5 2xl:gap-10"
           >
             {navigationLinks.map((link) => (
@@ -97,20 +90,19 @@ export function SiteHeader() {
             ))}
           </nav>
 
-          <div className="ml-auto hidden shrink-0 items-center gap-5 sm:flex lg:ml-0 2xl:gap-7.5">
-            <LanguageLinks />
-            <WebshopLink onClick={closeMenu} />
+          <div className="ml-auto hidden shrink-0 sm:flex lg:ml-0">
+            <WhatsAppOrderLink onClick={closeMenu} />
           </div>
 
           <button
             type="button"
             aria-controls="compact-navigation"
             aria-expanded={isMenuOpen}
-            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            aria-label={isMenuOpen ? "Menüyü kapat" : "Menüyü aç"}
             onClick={() => setIsMenuOpen((isOpen) => !isOpen)}
             className="ml-auto inline-flex h-7 w-[72px] shrink-0 cursor-pointer items-center justify-between gap-[7px] rounded-full bg-[#393128] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-[#f7f6f3] transition-colors duration-150 hover:bg-[#4a4035] focus-visible:ring-2 focus-visible:ring-[#ff5500] focus-visible:ring-offset-2 focus-visible:ring-offset-[#141414] focus-visible:outline-none sm:ml-0 lg:hidden"
           >
-            <span>{isMenuOpen ? "Close" : "Menu"}</span>
+            <span>{isMenuOpen ? "Kapat" : "Menü"}</span>
             <CircleMarkIcon
               className={cn(
                 "size-5 shrink-0 text-[#ff5500] transition-transform duration-300",
@@ -132,7 +124,7 @@ export function SiteHeader() {
           )}
         >
           <p className="text-[13.8083px] leading-[20.7125px] font-normal text-[#8c7d63]">
-            Menu
+            Menü
           </p>
           <div className="mt-[24px] flex flex-col items-start gap-[18px]">
             {navigationLinks.map((link) => (
@@ -147,6 +139,9 @@ export function SiteHeader() {
                 <span className="absolute -bottom-1 left-0 h-px w-full origin-left scale-x-0 bg-[#f7f6f3] transition-transform duration-300 group-hover:scale-x-100 group-focus-visible:scale-x-100" />
               </Link>
             ))}
+          </div>
+          <div className="mt-8 sm:hidden">
+            <WhatsAppOrderLink onClick={closeMenu} />
           </div>
         </nav>
       </div>
