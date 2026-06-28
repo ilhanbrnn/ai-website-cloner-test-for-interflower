@@ -8,19 +8,19 @@ import { BrandLogo } from "@/components/site-primitives";
 import { cn } from "@/lib/utils";
 
 const navigationLinks = [
-  { href: "/en/our-approach", label: "Our approach" },
-  { href: "/en/our-products", label: "Our products" },
-  { href: "/en/inspiration", label: "Inspiration" },
-  { href: "/en/about-us", label: "About us" },
-  { href: "/en/careers", label: "Careers" },
-  { href: "/en/contact", label: "Contact" },
+  { href: "#hikaye", label: "Hikâyemiz" },
+  { href: "#hizmetler", label: "Hizmetler" },
+  { href: "#neden-interflower", label: "Neden InterFlower" },
+  { href: "#siparis", label: "Sipariş" },
+  { href: "#iletisim", label: "İletişim" },
 ] as const;
 
-function WebshopLink() {
+function WebshopLink({ onClick }: { onClick?: () => void }) {
   return (
     <Link
-      href="https://shop.duyvenvoorde.nl/en-gb"
+      href="#siparis"
       aria-label="Webshop"
+      onClick={onClick}
       className="group/webshop inline-flex h-7 shrink-0 items-center justify-center gap-[7px] rounded-full bg-[#ff5500] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-white transition-colors duration-150 hover:bg-[#e94e00] focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#141414] focus-visible:outline-none lg:h-11 lg:gap-2.5 lg:pr-2.5 lg:pl-5 lg:text-[18px] lg:leading-[27px]"
     >
       <span>Webshop</span>
@@ -73,7 +73,7 @@ export function SiteHeader() {
       >
         <div className="relative z-10 flex h-[60px] items-center gap-2.5 px-[15px] lg:h-[84px] lg:gap-7.5 lg:px-[30px]">
           <Link
-            href="/en"
+            href="#hero"
             aria-label="Home"
             className="shrink-0 focus-visible:ring-2 focus-visible:ring-[#ff5500] focus-visible:outline-none"
             onClick={closeMenu}
@@ -99,7 +99,7 @@ export function SiteHeader() {
 
           <div className="ml-auto hidden shrink-0 items-center gap-5 sm:flex lg:ml-0 2xl:gap-7.5">
             <LanguageLinks />
-            <WebshopLink />
+            <WebshopLink onClick={closeMenu} />
           </div>
 
           <button

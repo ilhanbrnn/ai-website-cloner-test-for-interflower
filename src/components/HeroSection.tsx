@@ -1,8 +1,9 @@
 import { BrandButton } from "@/components/site-primitives";
 
-export function HeroSection() {
+export function HeroSection({ id }: { id: string }) {
   return (
     <section
+      id={id}
       aria-labelledby="hero-heading"
       className="relative h-[90svh] min-h-[620px] overflow-hidden bg-[#141414] lg:h-svh lg:min-h-[720px]"
     >

@@ -36,10 +36,10 @@ function StoryConnector() {
   );
 }
 
-export function ProductsSection() {
+export function ProductsSection({ id }: { id: string }) {
   return (
     <section
-      id="products"
+      id={id}
       aria-labelledby="products-heading"
       className="overflow-hidden bg-[#ede8de] px-[18px] pb-[153px] pt-12 text-[#141414] sm:px-0 sm:pt-[58px] lg:px-[4vw] lg:pb-32 lg:pt-20"
     >

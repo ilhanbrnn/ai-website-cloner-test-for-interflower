@@ -12,14 +12,14 @@ export default function Home() {
     <>
       <SiteHeader />
       <main>
-        <HeroSection />
-        <IntroSlider />
-        <ProductsSection />
-        <NetworkSection />
-        <WebshopSection />
+        <HeroSection id="hero" />
+        <IntroSlider id="hikaye" />
+        <ProductsSection id="hizmetler" />
+        <NetworkSection id="neden-interflower" />
+        <WebshopSection id="siparis" />
         <CareersSection />
       </main>
-      <SiteFooter />
+      <SiteFooter id="iletisim" />
     </>
   );
 }

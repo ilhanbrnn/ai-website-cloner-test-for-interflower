@@ -368,7 +368,7 @@ function FlowerOrbit({
   );
 }
 
-export function WebshopSection() {
+export function WebshopSection({ id }: { id: string }) {
   const sectionRef = useRef<HTMLElement>(null);
   const frameRef = useRef<number | null>(null);
   const [scrollStep, setScrollStep] = useState(0);
@@ -433,6 +433,7 @@ export function WebshopSection() {
 
   return (
     <section
+      id={id}
       ref={sectionRef}
       aria-labelledby="webshop-heading"
       className="relative h-[125svh] overflow-clip bg-[#e3dbca] text-[#141414] lg:h-[150svh]"

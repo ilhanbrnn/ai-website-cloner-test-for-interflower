@@ -22,10 +22,10 @@ const toolLinks = [
   { label: "Teamviewer", href: "https://get.teamviewer.com/67fcz2y" },
 ];
 
-export function SiteFooter() {
+export function SiteFooter({ id }: { id: string }) {
   return (
     <footer
-      id="footer"
+      id={id}
       className="bg-[#ede8de] px-[18px] pb-[34px] pt-6 text-[#141414] sm:px-0 lg:px-[4vw] lg:pb-6"
     >
       <div className="mx-auto grid w-full max-w-[584px] gap-6 lg:max-w-[1600px] lg:grid-cols-12">

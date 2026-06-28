@@ -113,9 +113,10 @@ function BenefitItem({ benefit }: { benefit: Benefit }) {
   );
 }
 
-export function NetworkSection() {
+export function NetworkSection({ id }: { id: string }) {
   return (
     <section
+      id={id}
       aria-labelledby="network-heading"
       className="overflow-hidden bg-[#ede8de] px-[18px] pb-20 text-[#141414] sm:px-0 sm:pb-[83px] sm:pt-[58px] xl:pb-36 xl:pt-0"
     >

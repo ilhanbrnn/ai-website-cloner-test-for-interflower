@@ -11,7 +11,7 @@ const introCopy =
 
 const marqueeCopy = "Always sharp, always on time";
 
-export function IntroSlider() {
+export function IntroSlider({ id }: { id: string }) {
   const marqueeRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -42,6 +42,7 @@ export function IntroSlider() {
   return (
     <>
       <section
+        id={id}
         aria-labelledby="intro-heading"
         className="site-grid gap-y-12 bg-[#ede8de] py-[clamp(3rem,calc(2.5rem+2.22222vw),5rem)] pt-[clamp(2.5rem,calc(1.25rem+5.55556vw),7.5rem)]"
       >
