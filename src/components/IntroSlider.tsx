@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect, useRef } from "react";
 
 import { Reveal } from "@/components/reveal";
 import {
@@ -11,28 +14,93 @@ const storyDescription =
   "InterFlower’da her aranjman bir duyguyla başlar. Mevsimin taze çiçeklerini özenle seçiyor, kişiye özel buketleri ve özel gün tasarımlarını Kızıltepe’de sevgiyle hazırlıyoruz.";
 
 export function IntroSlider({ id }: { id: string }) {
+  const sectionRef = useRef<HTMLElement>(null);
+  const yellowLineRef = useRef<HTMLDivElement>(null);
+  const flowerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    const yellowLine = yellowLineRef.current;
+    const flower = flowerRef.current;
+
+    if (!section || !yellowLine || !flower) {
+      return;
+    }
+
+    const reducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    );
+    let frameId: number | null = null;
+
+    const updateProgress = () => {
+      frameId = null;
+
+      if (reducedMotion.matches) {
+        yellowLine.style.clipPath = "inset(0 0% 0 0)";
+        flower.style.transform = "rotate(0deg)";
+        return;
+      }
+
+      const rect = section.getBoundingClientRect();
+      const travel = window.innerHeight + rect.height;
+      const progress = Math.min(
+        1,
+        Math.max(0, (window.innerHeight - rect.top) / travel),
+      );
+
+      yellowLine.style.clipPath = `inset(0 ${(1 - progress) * 100}% 0 0)`;
+      flower.style.transform = `rotate(${progress * 720}deg)`;
+    };
+
+    const requestUpdate = () => {
+      if (frameId === null) {
+        frameId = window.requestAnimationFrame(updateProgress);
+      }
+    };
+
+    updateProgress();
+    window.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate);
+    reducedMotion.addEventListener("change", requestUpdate);
+
+    return () => {
+      window.removeEventListener("scroll", requestUpdate);
+      window.removeEventListener("resize", requestUpdate);
+      reducedMotion.removeEventListener("change", requestUpdate);
+
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
+    };
+  }, []);
+
   return (
     <section
+      ref={sectionRef}
       id={id}
       aria-labelledby="intro-heading"
       className="site-grid gap-y-12 bg-[#ede8de] py-[clamp(3rem,calc(2.5rem+2.22222vw),5rem)] pt-[clamp(2.5rem,calc(1.25rem+5.55556vw),7.5rem)]"
     >
       <Reveal className="relative col-start-1 col-end-[-2] h-[150px] sm:h-[180px] lg:col-end-9 lg:row-start-1 xl:col-end-12">
         <CurvedLine color="black" className="absolute inset-0" />
-        <CurvedLine
-          color="yellow"
-          className="absolute inset-0 [clip-path:inset(0_0_0_48%)]"
-        />
+        <div
+          ref={yellowLineRef}
+          className="absolute inset-0 will-change-[clip-path] [clip-path:inset(0_100%_0_0)]"
+        >
+          <CurvedLine color="yellow" />
+        </div>
 
-        <div className="pointer-events-none absolute bottom-[-16px] left-[52%] z-10 size-[60px] -translate-x-1/2 min-[768px]:size-[80px] min-[992px]:size-[100px] min-[1500px]:size-[120px]">
-          <Image
-            src="/images/1.cdeb15e7.png"
-            alt=""
-            width={1000}
-            height={1000}
-            sizes="(min-width: 1500px) 120px, (min-width: 992px) 100px, (min-width: 768px) 80px, 60px"
-            className="size-full object-cover"
-          />
+        <div className="pointer-events-none absolute bottom-[-16px] left-[56.25%] z-10 size-[75px] -translate-x-1/2 min-[768px]:size-[100px] min-[992px]:size-[125px] min-[1500px]:size-[150px]">
+          <div ref={flowerRef} className="size-full will-change-transform">
+            <Image
+              src="/images/1.cdeb15e7.png"
+              alt=""
+              width={1000}
+              height={1000}
+              sizes="(min-width: 1500px) 150px, (min-width: 992px) 125px, (min-width: 768px) 100px, 75px"
+              className="size-full object-cover"
+            />
+          </div>
         </div>
       </Reveal>
 
