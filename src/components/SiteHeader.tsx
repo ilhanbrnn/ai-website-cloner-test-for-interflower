@@ -25,7 +25,7 @@ function WhatsAppOrderLink({ onClick }: { onClick?: () => void }) {
       rel="noopener noreferrer"
       aria-label="WhatsApp’tan sipariş ver"
       onClick={onClick}
-      className="group/whatsapp inline-flex h-7 shrink-0 items-center justify-center gap-[7px] rounded-full bg-[#B66F7A] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-white transition-colors duration-150 hover:bg-[#985A65] focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#171716] focus-visible:outline-none lg:h-11 lg:gap-2.5 lg:pr-2.5 lg:pl-5 lg:text-[18px] lg:leading-[27px]"
+      className="group/whatsapp inline-flex h-7 shrink-0 items-center justify-center gap-[7px] rounded-full bg-[#C95778] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-white transition-colors duration-150 hover:bg-[#8F4058] focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#171716] focus-visible:outline-none lg:h-11 lg:gap-2.5 lg:pr-2.5 lg:pl-5 lg:text-[18px] lg:leading-[27px]"
     >
       <span>WhatsApp Sipariş</span>
       <span className="relative size-5 overflow-hidden lg:size-6">
@@ -68,7 +68,7 @@ export function SiteHeader() {
           <Link
             href="#hero"
             aria-label="InterFlower ana sayfa"
-            className="w-[168px] shrink-0 focus-visible:ring-2 focus-visible:ring-[#B66F7A] focus-visible:outline-none lg:w-[200px]"
+            className="w-[168px] shrink-0 focus-visible:ring-2 focus-visible:ring-[#C95778] focus-visible:outline-none lg:w-[200px]"
             onClick={closeMenu}
           >
             <TextBrand />
@@ -100,12 +100,12 @@ export function SiteHeader() {
             aria-expanded={isMenuOpen}
             aria-label={isMenuOpen ? "Menüyü kapat" : "Menüyü aç"}
             onClick={() => setIsMenuOpen((isOpen) => !isOpen)}
-            className="ml-auto inline-flex h-7 w-[72px] shrink-0 cursor-pointer items-center justify-between gap-[7px] rounded-full bg-[#30302e] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-[#f7f6f3] transition-colors duration-150 hover:bg-[#41413e] focus-visible:ring-2 focus-visible:ring-[#B66F7A] focus-visible:ring-offset-2 focus-visible:ring-offset-[#171716] focus-visible:outline-none sm:ml-0 lg:hidden"
+            className="ml-auto inline-flex h-7 w-[72px] shrink-0 cursor-pointer items-center justify-between gap-[7px] rounded-full bg-[#30302e] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-[#f7f6f3] transition-colors duration-150 hover:bg-[#41413e] focus-visible:ring-2 focus-visible:ring-[#C95778] focus-visible:ring-offset-2 focus-visible:ring-offset-[#171716] focus-visible:outline-none sm:ml-0 lg:hidden"
           >
             <span>{isMenuOpen ? "Kapat" : "Menü"}</span>
             <CircleMarkIcon
               className={cn(
-                "size-5 shrink-0 text-[#B66F7A] transition-transform duration-300",
+                "size-5 shrink-0 text-[#C95778] transition-transform duration-300",
                 isMenuOpen && "rotate-45",
               )}
             />

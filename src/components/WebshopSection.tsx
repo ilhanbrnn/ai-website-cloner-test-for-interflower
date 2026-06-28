@@ -491,7 +491,9 @@ export function WebshopSection({ id }: { id: string }) {
                   : "translate-y-4 opacity-0",
               )}
             >
-              <SectionLabel>SİPARİŞ</SectionLabel>
+              <SectionLabel className="bg-[#8F4058] text-[#F2ECE2]">
+                SİPARİŞ
+              </SectionLabel>
             </div>
 
             <h2
@@ -540,6 +542,7 @@ export function WebshopSection({ id }: { id: string }) {
                 href="https://wa.me/905447204686?text=Merhaba%20InterFlower%2C%20çiçek%20siparişi%20vermek%20istiyorum."
                 target="_blank"
                 rel="noopener noreferrer"
+                className="bg-[#171716] text-[#F2ECE2] hover:bg-[#8F4058]"
               >
                 WhatsApp’tan Sipariş Ver
               </BrandButton>

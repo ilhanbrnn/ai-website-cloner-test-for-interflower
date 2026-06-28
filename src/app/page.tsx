@@ -1,4 +1,5 @@
 import { HeroSection } from "@/components/HeroSection";
+import { IntroMarquee } from "@/components/IntroMarquee";
 import { IntroSlider } from "@/components/IntroSlider";
 import { NetworkSection } from "@/components/NetworkSection";
 import { ProductsSection } from "@/components/ProductsSection";
@@ -14,6 +15,7 @@ export default function Home() {
         <HeroSection id="hero" />
         <IntroSlider id="hikaye" />
         <NetworkSection id="neden-interflower" />
+        <IntroMarquee />
         <ProductsSection id="hizmetler" />
         <WebshopSection id="siparis" />
       </main>

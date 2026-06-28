@@ -41,7 +41,7 @@ export function SiteFooter({ id }: { id: string }) {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="font-body text-[16px] leading-none font-semibold transition-colors duration-200 hover:text-[#B66F7A]"
+                    className="font-body text-[16px] leading-none font-semibold transition-colors duration-200 hover:text-[#C95778]"
                   >
                     {link.label}
                   </Link>
@@ -57,9 +57,11 @@ export function SiteFooter({ id }: { id: string }) {
 
         <section
           aria-labelledby="contact-heading"
-          className="flex min-h-[274px] flex-col rounded-[15.81px] bg-[#E6B9C3] p-6 lg:col-span-8"
+          className="flex min-h-[274px] flex-col rounded-[15.81px] bg-[#F2ECE2] p-6 lg:col-span-8"
         >
-          <SectionLabel>İletişim</SectionLabel>
+          <SectionLabel className="bg-[#8F4058] text-[#F2ECE2]">
+            İletişim
+          </SectionLabel>
           <h2
             id="contact-heading"
             className="mt-6 font-body text-[28px] leading-none font-semibold tracking-[-0.02em] sm:text-[30px]"
@@ -75,7 +77,7 @@ export function SiteFooter({ id }: { id: string }) {
             href={whatsappOrderUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-7"
+            className="mt-7 hover:bg-[#743247]"
           >
             WhatsApp’tan Sipariş Ver
           </BrandButton>
@@ -83,9 +85,9 @@ export function SiteFooter({ id }: { id: string }) {
 
         <section
           aria-labelledby="store-heading"
-          className="flex min-h-[386px] flex-col rounded-[15.81px] bg-[#B66F7A] p-6 text-white lg:col-span-8"
+          className="flex min-h-[386px] flex-col rounded-[15.81px] bg-[#743247] p-6 text-[#E8E0D2] lg:col-span-8"
         >
-          <SectionLabel className="bg-[#E8E0D2] text-[#171716]">
+          <SectionLabel className="bg-[#E5BBC5] text-[#743247]">
             Mağaza bilgileri
           </SectionLabel>
           <h2
@@ -95,10 +97,10 @@ export function SiteFooter({ id }: { id: string }) {
             InterFlower Çiçekçilik
           </h2>
 
-          <div className="mt-8 grid gap-3 font-body text-[16px] leading-[1.25] font-medium sm:grid-cols-2 sm:gap-x-8">
+          <div className="mt-8 grid gap-3 font-body text-[16px] leading-[1.25] font-medium text-[#E8E0D2]/80 sm:grid-cols-2 sm:gap-x-8">
             <a
               href="tel:+905447204686"
-              className="w-fit transition-colors duration-200 hover:text-[#171716]"
+              className="w-fit transition-colors duration-200 hover:text-white"
             >
               +90 544 720 46 86
             </a>
@@ -106,16 +108,24 @@ export function SiteFooter({ id }: { id: string }) {
               href={instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex w-fit items-center gap-2 transition-colors duration-200 hover:text-[#171716]"
+              className="group flex w-fit items-center gap-2 transition-colors duration-200 hover:text-white"
             >
               <span>@interflower.cicekcilik</span>
-              <ArrowRightIcon className="size-4 transition-transform duration-200 group-hover:translate-x-1" />
+              <ArrowRightIcon className="size-4 text-[#E5BBC5] transition-transform duration-200 group-hover:translate-x-1" />
             </a>
             <address className="not-italic sm:col-span-2">
-              <span className="block">
-                Tepebaşı, Hastane Cd. Onat Apartmanı Altı No:40/E
-              </span>
-              <span className="block">47400 Kızıltepe/Mardin</span>
+              <a
+                href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x154ad4de262b7087:0xc966172b66c23cce?sa=X&ved=1t:8290&hl=tr-TR&ictx=111&cshid=1782677964052121"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="InterFlower konumunu Google Maps’te aç"
+                className="block transition-opacity duration-200 hover:opacity-75 focus-visible:opacity-75 focus-visible:outline-none"
+              >
+                <span className="block">
+                  Tepebaşı, Hastane Cd. Onat Apartmanı Altı No:40/E
+                </span>
+                <span className="block">47400 Kızıltepe/Mardin</span>
+              </a>
             </address>
             <p>Her gün 08.00–22.00</p>
             <p>Mardin ve ilçelerine teslimat</p>
