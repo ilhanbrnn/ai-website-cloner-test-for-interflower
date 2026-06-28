@@ -51,21 +51,35 @@ export function HeroSection({ id }: { id: string }) {
       <div className="relative z-30 flex h-full flex-col items-center justify-center px-5 text-center text-[#f7f6f3]">
         <h1
           id="hero-heading"
-          className="w-[8ch] font-heading text-[clamp(48px,13.6vw,105.95px)] font-extrabold uppercase leading-[0.8] tracking-[-0.03em] lg:text-[clamp(105.95px,6.25vw,120px)]"
+          aria-label="Her hikâye bir tohumla başlar"
+          className="w-fit max-w-full font-heading text-[clamp(48px,13.6vw,105.95px)] font-extrabold uppercase leading-[0.8] tracking-[-0.03em] lg:text-[clamp(105.95px,6.25vw,120px)]"
         >
-          Access nature&apos;s finest
+          <span aria-hidden="true" className="block whitespace-nowrap">
+            HER HİKÂYE
+          </span>
+          <span aria-hidden="true" className="block whitespace-nowrap">
+            BİR TOHUMLA
+          </span>
+          <span aria-hidden="true" className="block whitespace-nowrap">
+            BAŞLAR
+          </span>
         </h1>
 
         <div className="mt-[clamp(48px,7.5vw,64px)] flex flex-col items-center">
           <BrandButton
-            href="/en/our-products"
+            href="#hizmetler"
             className="text-[clamp(13px,2vw,16px)]"
           >
-            Discover our products
+            Çiçekleri Keşfet
           </BrandButton>
-          <p className="mt-2.5 font-body text-[clamp(13px,1.8vw,16px)] leading-none">
-            Access our global network
-          </p>
+          <a
+            href="https://wa.me/905447204686?text=Merhaba%20InterFlower%2C%20çiçek%20siparişi%20vermek%20istiyorum."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2.5 font-body text-[clamp(13px,1.8vw,16px)] leading-none transition-colors duration-200 hover:text-[#ff5500] focus-visible:outline-none"
+          >
+            WhatsApp’tan Sipariş Ver
+          </a>
         </div>
       </div>
     </section>

@@ -1,10 +1,14 @@
 import Image from "next/image";
 
 import { Reveal } from "@/components/reveal";
-import { BrandButton, CurvedLine } from "@/components/site-primitives";
+import {
+  BrandButton,
+  CurvedLine,
+  SectionLabel,
+} from "@/components/site-primitives";
 
-const introCopy =
-  "From our location at the auction in Naaldwijk, we ensure that every flower and plant reaches our customers in top condition. Thanks to our extensive stock and efficient logistics, we can deliver quickly — often on the same day.";
+const storyDescription =
+  "InterFlower’da her aranjman bir duyguyla başlar. Mevsimin taze çiçeklerini özenle seçiyor, kişiye özel buketleri ve özel gün tasarımlarını Kızıltepe’de sevgiyle hazırlıyoruz.";
 
 export function IntroSlider({ id }: { id: string }) {
   return (
@@ -34,20 +38,31 @@ export function IntroSlider({ id }: { id: string }) {
 
       <div className="col-start-2 col-end-[-2] pt-2 sm:col-start-3 sm:col-end-[-3] lg:col-start-8 lg:col-end-[-3] lg:row-start-1 lg:pt-0 xl:col-start-12 xl:col-end-[-2]">
         <Reveal>
-          <h2 id="intro-heading" className="sr-only">
-            About Duyvenvoorde
-          </h2>
-          <p className="mb-[0.83335em] font-body text-[clamp(1.5rem,calc(1.0625rem+1.94444vw),3.25rem)] font-normal leading-[1.2] tracking-[-0.02em] text-[#141414]">
-            {introCopy}
-          </p>
+          <SectionLabel>HİKÂYEMİZ</SectionLabel>
         </Reveal>
 
         <Reveal delay={1}>
-          <BrandButton
-            href="/en/about-us"
-            className="h-9 bg-[#e3dbca] px-[14px] py-0 pr-[10px] text-[16.4px] leading-[1.5] text-[#141414] hover:bg-[#d9cdb5]"
+          <h2
+            id="intro-heading"
+            className="mt-8 font-body text-[clamp(1.75rem,calc(1.0625rem+3.05556vw),4.5rem)] leading-[1.05] font-medium tracking-[-0.02em] text-[#141414]"
           >
-            More about us
+            <span className="block">Topraktan bukete,</span>
+            <span className="block">buketten hatıraya.</span>
+          </h2>
+        </Reveal>
+
+        <Reveal delay={2}>
+          <p className="mt-6 max-w-[42rem] font-body text-[clamp(17px,2.2vw,21px)] leading-[1.35] font-normal text-[#141414]">
+            {storyDescription}
+          </p>
+        </Reveal>
+
+        <Reveal delay={3}>
+          <BrandButton
+            href="#neden-interflower"
+            className="mt-8 h-9 bg-[#e3dbca] px-[14px] py-0 pr-[10px] text-[16.4px] leading-[1.5] text-[#141414] hover:bg-[#d9cdb5]"
+          >
+            Neden InterFlower?
           </BrandButton>
         </Reveal>
       </div>
