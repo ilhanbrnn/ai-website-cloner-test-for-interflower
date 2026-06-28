@@ -26,8 +26,8 @@ export function BrandButton({
       className={cn(
         "group inline-flex w-fit items-center gap-2 rounded-full px-4 py-2.5 font-body text-[15px] leading-none transition-colors duration-300",
         inverted
-          ? "bg-[#f7f6f3] text-[#141414] hover:bg-white"
-          : "bg-[#141414] text-[#f7f6f3] hover:bg-[#ff5500]",
+          ? "bg-[#E8E0D2] text-[#171716] hover:bg-[#E6B9C3]"
+          : "bg-[#171716] text-[#f7f6f3] hover:bg-[#985A65]",
         className,
       )}
     >
@@ -49,7 +49,7 @@ export function SectionLabel({ children, className }: SectionLabelProps) {
   return (
     <span
       className={cn(
-        "inline-flex h-[22px] w-fit items-center rounded-full bg-[#141414] px-2 font-body text-[13px] uppercase leading-none text-[#f7f6f3]",
+        "inline-flex h-[22px] w-fit items-center rounded-full bg-[#171716] px-2 font-body text-[13px] uppercase leading-none text-[#f7f6f3]",
         className,
       )}
     >
@@ -65,10 +65,10 @@ interface CurvedLineProps {
 }
 
 const lineColors = {
-  orange: "#ff5500",
-  pink: "#fca1cd",
+  orange: "#B66F7A",
+  pink: "#E6B9C3",
   yellow: "#f8ca12",
-  black: "#141414",
+  black: "#171716",
 };
 
 export function CurvedLine({

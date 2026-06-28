@@ -11,8 +11,8 @@ const whatsappOrderUrl =
 
 const navigationLinks = [
   { href: "#hikaye", label: "Hikâyemiz" },
-  { href: "#hizmetler", label: "Hizmetler" },
   { href: "#neden-interflower", label: "Neden InterFlower" },
+  { href: "#hizmetler", label: "Hizmetler" },
   { href: "#siparis", label: "Sipariş" },
   { href: "#iletisim", label: "İletişim" },
 ] as const;
@@ -25,7 +25,7 @@ function WhatsAppOrderLink({ onClick }: { onClick?: () => void }) {
       rel="noopener noreferrer"
       aria-label="WhatsApp’tan sipariş ver"
       onClick={onClick}
-      className="group/whatsapp inline-flex h-7 shrink-0 items-center justify-center gap-[7px] rounded-full bg-[#ff5500] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-white transition-colors duration-150 hover:bg-[#e94e00] focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#141414] focus-visible:outline-none lg:h-11 lg:gap-2.5 lg:pr-2.5 lg:pl-5 lg:text-[18px] lg:leading-[27px]"
+      className="group/whatsapp inline-flex h-7 shrink-0 items-center justify-center gap-[7px] rounded-full bg-[#B66F7A] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-white transition-colors duration-150 hover:bg-[#985A65] focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#171716] focus-visible:outline-none lg:h-11 lg:gap-2.5 lg:pr-2.5 lg:pl-5 lg:text-[18px] lg:leading-[27px]"
     >
       <span>WhatsApp Sipariş</span>
       <span className="relative size-5 overflow-hidden lg:size-6">
@@ -42,7 +42,7 @@ function TextBrand() {
       <span className="font-heading text-[22px] font-extrabold tracking-[-0.02em] lg:text-[28px]">
         InterFlower
       </span>
-      <span className="mt-1 font-body text-[9px] font-medium tracking-[0.2em] text-[#f7f6f3]/65 uppercase lg:text-[10px]">
+      <span className="mt-1 font-body text-[9px] font-medium tracking-[0.2em] text-[#E8E0D2]/70 uppercase lg:text-[10px]">
         Çiçekçilik
       </span>
     </div>
@@ -60,7 +60,7 @@ export function SiteHeader() {
     <header className="fixed inset-x-0 top-0 z-[52] grid grid-cols-[minmax(24px,0.5fr)_repeat(10,minmax(0,1fr))_minmax(24px,0.5fr)] sm:grid-cols-16 lg:grid-cols-1">
       <div
         className={cn(
-          "relative col-start-2 col-end-[-2] -mx-2 overflow-hidden rounded-b-[14px] border-x border-b border-[#e3dbca]/25 bg-[#141414] text-[#f7f6f3] shadow-[0_143px_40px_0_rgba(0,0,0,0),0_92px_37px_0_rgba(0,0,0,0.01),0_52px_31px_0_rgba(0,0,0,0.05),0_23px_23px_0_rgba(0,0,0,0.09),0_6px_13px_0_rgba(0,0,0,0.1)] transition-[height] duration-[400ms] ease-[cubic-bezier(0.4,0,0.2,1)] sm:col-start-3 sm:col-end-[-3] sm:-mx-[15px] lg:col-span-full lg:col-start-1 lg:col-end-[-1] lg:mx-auto lg:h-[84px] lg:w-full lg:max-w-[1280px]",
+          "relative col-start-2 col-end-[-2] -mx-2 overflow-hidden rounded-b-[14px] border-x border-b border-[#E8E0D2]/25 bg-[#171716] text-[#f7f6f3] shadow-[0_143px_40px_0_rgba(0,0,0,0),0_92px_37px_0_rgba(0,0,0,0.01),0_52px_31px_0_rgba(0,0,0,0.05),0_23px_23px_0_rgba(0,0,0,0.09),0_6px_13px_0_rgba(0,0,0,0.1)] transition-[height] duration-[400ms] ease-[cubic-bezier(0.4,0,0.2,1)] sm:col-start-3 sm:col-end-[-3] sm:-mx-[15px] lg:col-span-full lg:col-start-1 lg:col-end-[-1] lg:mx-auto lg:h-[84px] lg:w-full lg:max-w-[1280px]",
           isMenuOpen ? "h-[535px]" : "h-[60px]",
         )}
       >
@@ -68,7 +68,7 @@ export function SiteHeader() {
           <Link
             href="#hero"
             aria-label="InterFlower ana sayfa"
-            className="w-[168px] shrink-0 focus-visible:ring-2 focus-visible:ring-[#ff5500] focus-visible:outline-none lg:w-[200px]"
+            className="w-[168px] shrink-0 focus-visible:ring-2 focus-visible:ring-[#B66F7A] focus-visible:outline-none lg:w-[200px]"
             onClick={closeMenu}
           >
             <TextBrand />
@@ -100,12 +100,12 @@ export function SiteHeader() {
             aria-expanded={isMenuOpen}
             aria-label={isMenuOpen ? "Menüyü kapat" : "Menüyü aç"}
             onClick={() => setIsMenuOpen((isOpen) => !isOpen)}
-            className="ml-auto inline-flex h-7 w-[72px] shrink-0 cursor-pointer items-center justify-between gap-[7px] rounded-full bg-[#393128] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-[#f7f6f3] transition-colors duration-150 hover:bg-[#4a4035] focus-visible:ring-2 focus-visible:ring-[#ff5500] focus-visible:ring-offset-2 focus-visible:ring-offset-[#141414] focus-visible:outline-none sm:ml-0 lg:hidden"
+            className="ml-auto inline-flex h-7 w-[72px] shrink-0 cursor-pointer items-center justify-between gap-[7px] rounded-full bg-[#30302e] py-0 pr-[5px] pl-2.5 text-[13.8083px] leading-[20.7125px] font-normal whitespace-nowrap text-[#f7f6f3] transition-colors duration-150 hover:bg-[#41413e] focus-visible:ring-2 focus-visible:ring-[#B66F7A] focus-visible:ring-offset-2 focus-visible:ring-offset-[#171716] focus-visible:outline-none sm:ml-0 lg:hidden"
           >
             <span>{isMenuOpen ? "Kapat" : "Menü"}</span>
             <CircleMarkIcon
               className={cn(
-                "size-5 shrink-0 text-[#ff5500] transition-transform duration-300",
+                "size-5 shrink-0 text-[#B66F7A] transition-transform duration-300",
                 isMenuOpen && "rotate-45",
               )}
             />
@@ -123,7 +123,7 @@ export function SiteHeader() {
               : "invisible -translate-y-3 opacity-0 delay-0",
           )}
         >
-          <p className="text-[13.8083px] leading-[20.7125px] font-normal text-[#8c7d63]">
+          <p className="text-[13.8083px] leading-[20.7125px] font-normal text-[#84907A]">
             Menü
           </p>
           <div className="mt-[24px] flex flex-col items-start gap-[18px]">

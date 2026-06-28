@@ -337,7 +337,7 @@ function FlowerOrbit({
             strokeWidth="1.5"
             strokeOpacity="0.72"
             stroke={
-              ["#ff5500", "#fca1cd", "#8464ed", "#0b894d", "#f8ca12"][
+              ["#B66F7A", "#E6B9C3", "#84907A", "#985A65", "#E8E0D2"][
                 Math.round(flower.angle / 30) % 5
               ]
             }
@@ -435,8 +435,8 @@ export function WebshopSection({ id }: { id: string }) {
     <section
       id={id}
       ref={sectionRef}
-      aria-labelledby="webshop-heading"
-      className="relative h-[125svh] overflow-clip bg-[#e3dbca] text-[#141414] lg:h-[150svh]"
+      aria-labelledby="order-heading"
+      className="relative h-[125svh] overflow-clip bg-[#E8E0D2] text-[#171716] lg:h-[150svh]"
     >
       <div className="sticky top-0 h-svh overflow-hidden">
         <div
@@ -482,7 +482,7 @@ export function WebshopSection({ id }: { id: string }) {
         </div>
 
         <div className="absolute inset-0 z-20 flex items-center justify-center px-6 text-center">
-          <div className="flex w-[305px] flex-col items-center gap-10">
+          <div className="flex w-full max-w-[440px] flex-col items-center gap-8">
             <div
               className={cn(
                 "transition-all duration-700 ease-out",
@@ -491,12 +491,12 @@ export function WebshopSection({ id }: { id: string }) {
                   : "translate-y-4 opacity-0",
               )}
             >
-              <SectionLabel>Webshop</SectionLabel>
+              <SectionLabel>SİPARİŞ</SectionLabel>
             </div>
 
             <h2
-              id="webshop-heading"
-              className="max-w-[10ch] font-heading text-[clamp(48px,8.78vw,69.7px)] font-extrabold uppercase leading-[0.8] tracking-[-0.03em]"
+              id="order-heading"
+              className="max-w-[11ch] font-heading text-[clamp(44px,8vw,69.7px)] font-extrabold uppercase leading-[0.82] tracking-[-0.03em]"
             >
               <span className="block overflow-hidden">
                 <span
@@ -507,7 +507,7 @@ export function WebshopSection({ id }: { id: string }) {
                       : "translate-y-full opacity-0",
                   )}
                 >
-                  Delivered fresh
+                  Sipariş vermek
                 </span>
               </span>
               <span className="block overflow-hidden">
@@ -519,7 +519,7 @@ export function WebshopSection({ id }: { id: string }) {
                       : "-translate-y-full opacity-0",
                   )}
                 >
-                  daily
+                  bu kadar kolay.
                 </span>
               </span>
             </h2>
@@ -532,11 +532,19 @@ export function WebshopSection({ id }: { id: string }) {
                   : "translate-y-5 opacity-0",
               )}
             >
-              <BrandButton href="https://shop.duyvenvoorde.nl/en-gb">
-                Visit the webshop
+              <p className="mb-6 max-w-[26rem] font-body text-[17px] leading-[1.35] font-[370] sm:text-[19px]">
+                Buket, özel gün çiçeği, aranjman ve organizasyon talepleriniz
+                için bize WhatsApp üzerinden ulaşın.
+              </p>
+              <BrandButton
+                href="https://wa.me/905447204686?text=Merhaba%20InterFlower%2C%20çiçek%20siparişi%20vermek%20istiyorum."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WhatsApp’tan Sipariş Ver
               </BrandButton>
               <p className="mt-2.5 font-body text-[15px] leading-none">
-                Access nature&apos;s finest
+                Mardin ve ilçelerine teslimat
               </p>
             </div>
           </div>

@@ -9,8 +9,8 @@ const instagramUrl = "https://www.instagram.com/interflower.cicekcilik/";
 
 const menuLinks = [
   { label: "Hikâyemiz", href: "#hikaye" },
-  { label: "Hizmetler", href: "#hizmetler" },
   { label: "Neden InterFlower", href: "#neden-interflower" },
+  { label: "Hizmetler", href: "#hizmetler" },
   { label: "Sipariş", href: "#siparis" },
   { label: "İletişim", href: "#iletisim" },
 ] as const;
@@ -19,21 +19,21 @@ export function SiteFooter({ id }: { id: string }) {
   return (
     <footer
       id={id}
-      className="bg-[#ede8de] px-[18px] pt-6 pb-[34px] text-[#141414] sm:px-0 lg:px-[4vw] lg:pb-6"
+      className="bg-[#E8E0D2] px-[18px] pt-6 pb-[34px] text-[#171716] sm:px-0 lg:px-[4vw] lg:pb-6"
     >
       <div className="mx-auto grid w-full max-w-[584px] gap-6 lg:max-w-[1600px] lg:grid-cols-12">
-        <div className="flex min-h-[537px] flex-col items-center justify-center rounded-[15.81px] bg-[#141414] px-6 py-12 text-center text-[#f7f6f3] lg:col-span-4 lg:row-span-2 lg:min-h-[684px]">
+        <div className="flex min-h-[537px] flex-col items-center justify-center rounded-[15.81px] bg-[#171716] px-6 py-12 text-center text-[#f7f6f3] lg:col-span-4 lg:row-span-2 lg:min-h-[684px]">
           <div>
             <p className="font-heading text-[32px] font-extrabold leading-none tracking-[-0.02em]">
               InterFlower
             </p>
-            <p className="mt-2 font-body text-[11px] font-medium tracking-[0.2em] text-[#f7f6f3]/65 uppercase">
+            <p className="mt-2 font-body text-[11px] font-medium tracking-[0.2em] text-[#E8E0D2]/70 uppercase">
               Çiçekçilik
             </p>
           </div>
 
           <nav aria-label="Footer menüsü" className="mt-12">
-            <p className="font-body text-[13.21px] leading-none font-[370] text-[#8c7d63]">
+            <p className="font-body text-[13.21px] leading-none font-[370] text-[#84907A]">
               Menü
             </p>
             <ul className="mt-8 space-y-[18px]">
@@ -41,7 +41,7 @@ export function SiteFooter({ id }: { id: string }) {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="font-body text-[16px] leading-none font-semibold transition-colors duration-200 hover:text-[#ff5500]"
+                    className="font-body text-[16px] leading-none font-semibold transition-colors duration-200 hover:text-[#B66F7A]"
                   >
                     {link.label}
                   </Link>
@@ -51,13 +51,13 @@ export function SiteFooter({ id }: { id: string }) {
           </nav>
 
           <p className="mt-12 max-w-[18rem] font-body text-[16px] leading-[1.25] text-[#f7f6f3]/75">
-            Her Hikâye Bir Tohumla Başlar
+            Sevginin yolu çiçeklerden geçer.
           </p>
         </div>
 
         <section
           aria-labelledby="contact-heading"
-          className="flex min-h-[274px] flex-col rounded-[15.81px] bg-[#e3dbca] p-6 lg:col-span-8"
+          className="flex min-h-[274px] flex-col rounded-[15.81px] bg-[#E6B9C3] p-6 lg:col-span-8"
         >
           <SectionLabel>İletişim</SectionLabel>
           <h2
@@ -83,9 +83,9 @@ export function SiteFooter({ id }: { id: string }) {
 
         <section
           aria-labelledby="store-heading"
-          className="flex min-h-[386px] flex-col rounded-[15.81px] bg-[#ff5500] p-6 text-[#f7f6f3] lg:col-span-8"
+          className="flex min-h-[386px] flex-col rounded-[15.81px] bg-[#B66F7A] p-6 text-white lg:col-span-8"
         >
-          <SectionLabel className="bg-[#f7f6f3] text-[#8c7d63]">
+          <SectionLabel className="bg-[#E8E0D2] text-[#171716]">
             Mağaza bilgileri
           </SectionLabel>
           <h2
@@ -98,7 +98,7 @@ export function SiteFooter({ id }: { id: string }) {
           <div className="mt-8 grid gap-3 font-body text-[16px] leading-[1.25] font-medium sm:grid-cols-2 sm:gap-x-8">
             <a
               href="tel:+905447204686"
-              className="w-fit transition-colors duration-200 hover:text-[#141414]"
+              className="w-fit transition-colors duration-200 hover:text-[#171716]"
             >
               +90 544 720 46 86
             </a>
@@ -106,7 +106,7 @@ export function SiteFooter({ id }: { id: string }) {
               href={instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex w-fit items-center gap-2 transition-colors duration-200 hover:text-[#141414]"
+              className="group flex w-fit items-center gap-2 transition-colors duration-200 hover:text-[#171716]"
             >
               <span>@interflower.cicekcilik</span>
               <ArrowRightIcon className="size-4 transition-transform duration-200 group-hover:translate-x-1" />
@@ -117,12 +117,12 @@ export function SiteFooter({ id }: { id: string }) {
               </span>
               <span className="block">47400 Kızıltepe/Mardin</span>
             </address>
-            <p>Her gün 09.00–22.00</p>
-            <p>Kızıltepe ve çevre ilçelere teslimat</p>
+            <p>Her gün 08.00–22.00</p>
+            <p>Mardin ve ilçelerine teslimat</p>
           </div>
         </section>
 
-        <div className="flex min-h-[54px] items-center justify-center font-body text-[13.21px] leading-none font-[370] text-[#8c7d63] lg:col-span-12 lg:justify-start">
+        <div className="flex min-h-[54px] items-center justify-center font-body text-[13.21px] leading-none font-[370] text-[#84907A] lg:col-span-12 lg:justify-start">
           <p>© 2026 InterFlower Çiçekçilik</p>
         </div>
       </div>

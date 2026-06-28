@@ -13,8 +13,8 @@ export default function Home() {
       <main>
         <HeroSection id="hero" />
         <IntroSlider id="hikaye" />
-        <ProductsSection id="hizmetler" />
         <NetworkSection id="neden-interflower" />
+        <ProductsSection id="hizmetler" />
         <WebshopSection id="siparis" />
       </main>
       <SiteFooter id="iletisim" />

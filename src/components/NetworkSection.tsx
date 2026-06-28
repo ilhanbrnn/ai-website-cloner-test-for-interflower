@@ -1,15 +1,16 @@
+"use client";
+
 import type { ComponentType, SVGProps } from "react";
+import { useEffect, useRef } from "react";
 
 import {
-  CheckIcon,
   DeliveryIcon,
   HeartIcon,
-  MailIcon,
   PersonIcon,
   SparkIcon,
 } from "@/components/icons";
 import { Reveal } from "@/components/reveal";
-import { BrandButton } from "@/components/site-primitives";
+import { BrandButton, SectionLabel } from "@/components/site-primitives";
 
 interface Benefit {
   title: string;
@@ -19,40 +20,37 @@ interface Benefit {
 
 const benefits: readonly Benefit[] = [
   {
-    title: "Fresh delivery, day and night",
-    description:
-      "You can order from us at any time. Thanks to direct links with our suppliers, we deliver your order fresh - right when you need it.",
+    title: "2006’dan beri deneyim",
+    description: "Yılların getirdiği ustalık, güven ve yerel tecrübe.",
     icon: DeliveryIcon,
   },
   {
-    title: "Service without limits",
+    title: "Kişiye özel tasarım",
     description:
-      "Our goal is to take the weight off your shoulders. From ready-to-sell products to setting up a personal webshop: we make it happen.",
+      "Her buket ve aranjman kişiye, ana ve isteğe göre hazırlanır.",
     icon: HeartIcon,
   },
   {
-    title: "Personal and reliable",
+    title: "Kalite ve özen",
     description:
-      "Personal contact matters to us. That’s why you’ll have one dedicated contact who understands your business and supports you in your own language.",
+      "Ürün seçiminden teslimata kadar titiz hazırlık ve ilgili hizmet.",
     icon: PersonIcon,
   },
   {
-    title: "Expertise in every field",
+    title: "Mardin ve ilçelerine teslimat",
     description:
-      "Every team member brings their own expertise. Together with our experience and knowledge of the market, this means we come up with smart solutions. Every time.",
+      "Aynı gün ve acil siparişlerde uygunluk durumuna göre hızlı çözüm.",
     icon: SparkIcon,
   },
 ];
 
-const networkPoints = [
-  "Flowers and plants from top growers",
-  "Carefully selected by our team",
-  "Access nature’s finest",
-] as const;
+const designerSignature = "Mahmut Baba — Çiçek Tasarımcısı";
+const googleReviewsUrl = "https://share.google/t3Q9ln2hH9n4rt4IP";
 
 function NetworkConnector() {
   return (
     <div
+      data-network-connector
       aria-hidden="true"
       className="pointer-events-none relative left-1/2 h-12 w-screen -translate-x-1/2"
     >
@@ -64,13 +62,23 @@ function NetworkConnector() {
         <path
           d="M0 47H76"
           fill="none"
-          stroke="#ff5500"
+          stroke="#171716"
           strokeWidth="2.5"
         />
         <path
           d="M86 47h77c18 0 32-14 32-32V0"
           fill="none"
-          stroke="#141414"
+          stroke="#171716"
+          strokeWidth="2.5"
+        />
+        <path
+          data-scroll-progress-line
+          d="M0 47H76M86 47h77c18 0 32-14 32-32V0"
+          fill="none"
+          pathLength={1}
+          stroke="#B66F7A"
+          strokeDasharray={1}
+          strokeDashoffset={1}
           strokeWidth="2.5"
         />
       </svg>
@@ -83,13 +91,23 @@ function NetworkConnector() {
         <path
           d="M0 47h176"
           fill="none"
-          stroke="#ff5500"
+          stroke="#171716"
           strokeWidth="2.5"
         />
         <path
           d="M186 47h98c18 0 32-14 32-32V0"
           fill="none"
-          stroke="#141414"
+          stroke="#171716"
+          strokeWidth="2.5"
+        />
+        <path
+          data-scroll-progress-line
+          d="M0 47h176M186 47h98c18 0 32-14 32-32V0"
+          fill="none"
+          pathLength={1}
+          stroke="#B66F7A"
+          strokeDasharray={1}
+          strokeDashoffset={1}
           strokeWidth="2.5"
         />
       </svg>
@@ -102,7 +120,7 @@ function BenefitItem({ benefit }: { benefit: Benefit }) {
 
   return (
     <article>
-      <Icon className="size-7 text-[#ff5500]" />
+      <Icon className="size-7 text-[#B66F7A]" />
       <h3 className="mt-4 font-body text-[20px] font-semibold leading-[1.15] tracking-[-0.01em]">
         {benefit.title}
       </h3>
@@ -113,62 +131,144 @@ function BenefitItem({ benefit }: { benefit: Benefit }) {
   );
 }
 
+function GoogleReviewsCard() {
+  return (
+    <Reveal>
+      <article className="rounded-[15.81px] bg-[#E6B9C3] p-6 text-[#171716] sm:p-8 xl:p-10">
+        <SectionLabel className="bg-[#171716] text-[#E8E0D2]">
+          GOOGLE YORUMLARI
+        </SectionLabel>
+        <h3 className="mt-7 font-body text-[clamp(28px,4vw,44px)] leading-[1.02] font-semibold tracking-[-0.02em]">
+          Müşterilerimiz ne diyor?
+        </h3>
+        <p className="mt-5 max-w-[48rem] font-body text-[17px] leading-[1.4] font-[370] sm:text-[19px]">
+          Kaliteli ürün, ilgili hizmet ve güvenilir teslimat anlayışımız Google
+          yorumlarında da öne çıkıyor.
+        </p>
+        <BrandButton
+          href={googleReviewsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-7"
+        >
+          Google yorumlarını görüntüle
+        </BrandButton>
+      </article>
+    </Reveal>
+  );
+}
+
 export function NetworkSection({ id }: { id: string }) {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+
+    if (!section) {
+      return;
+    }
+
+    const progressLines = section.querySelectorAll<SVGPathElement>(
+      "[data-scroll-progress-line]",
+    );
+    const connector = section.querySelector<HTMLElement>(
+      "[data-network-connector]",
+    );
+
+    if (!connector) {
+      return;
+    }
+
+    const reducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    );
+    let frameId: number | null = null;
+
+    const updateProgress = () => {
+      frameId = null;
+
+      if (reducedMotion.matches) {
+        progressLines.forEach((line) => {
+          line.style.strokeDashoffset = "0";
+        });
+        return;
+      }
+
+      const rect = connector.getBoundingClientRect();
+      const travel = window.innerHeight + rect.height;
+      const progress = Math.min(
+        1,
+        Math.max(0, (window.innerHeight - rect.top) / travel),
+      );
+
+      progressLines.forEach((line) => {
+        line.style.strokeDashoffset = String(1 - progress);
+      });
+    };
+
+    const requestUpdate = () => {
+      if (frameId === null) {
+        frameId = window.requestAnimationFrame(updateProgress);
+      }
+    };
+
+    updateProgress();
+    window.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate);
+    reducedMotion.addEventListener("change", requestUpdate);
+
+    return () => {
+      window.removeEventListener("scroll", requestUpdate);
+      window.removeEventListener("resize", requestUpdate);
+      reducedMotion.removeEventListener("change", requestUpdate);
+
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
+    };
+  }, []);
+
   return (
     <section
+      ref={sectionRef}
       id={id}
       aria-labelledby="network-heading"
-      className="overflow-hidden bg-[#ede8de] px-[18px] pb-20 text-[#141414] sm:px-0 sm:pb-[83px] sm:pt-[58px] xl:pb-36 xl:pt-0"
+      className="overflow-hidden bg-[#E8E0D2] px-[18px] pb-20 text-[#171716] sm:px-0 sm:pb-[83px] sm:pt-[58px] xl:pb-36 xl:pt-0"
     >
       <div className="mx-auto w-full max-w-[1600px]">
-        <div className="relative sm:ml-[12.5%] sm:w-[56.25%] xl:ml-[4vw] xl:w-[42%]">
+        <div className="relative sm:ml-[12.5%] sm:w-[75%] xl:ml-[4vw] xl:w-[50%]">
           <Reveal>
-            <div className="flex min-h-[520px] flex-col rounded-[15.81px] bg-[#141414] p-6 text-[#f7f6f3] sm:h-[498px] sm:min-h-0 xl:h-[clamp(520px,36vw,620px)] xl:p-[clamp(24px,2.5vw,48px)]">
-              <div>
-                <p className="font-body text-[14px] font-[370] leading-none text-[#a19d96]">
-                  Need advice?
-                </p>
-                <p className="mt-1 font-body text-[20px] font-semibold leading-none">
-                  Contact us
-                </p>
-                <a
-                  href="mailto:contact@duyvenvoorde.nl"
-                  className="mt-2 inline-flex items-center gap-1.5 font-body text-[14px] font-[370] leading-none text-[#ff5500] transition-colors duration-300 hover:text-[#f7f6f3]"
-                >
-                  <MailIcon className="size-4 shrink-0" />
-                  contact@duyvenvoorde.nl
-                </a>
-              </div>
+            <div className="flex min-h-[620px] flex-col rounded-[15.81px] bg-[#171716] p-6 text-[#f7f6f3] sm:p-8 xl:min-h-[680px] xl:p-[clamp(32px,3vw,56px)]">
+              <SectionLabel className="bg-[#B66F7A] text-white">
+                NEDEN INTERFLOWER?
+              </SectionLabel>
 
-              <Reveal delay={1} className="mt-8">
+              <Reveal delay={1} className="mt-10">
                 <h2
                   id="network-heading"
-                  className="max-w-[10ch] font-heading text-[39.04px] font-extrabold uppercase leading-[31.23px] tracking-[-1.17px]"
+                  className="max-w-[15ch] font-body text-[clamp(38px,5vw,68px)] leading-[0.98] font-semibold tracking-[-0.03em]"
                 >
-                  Access to our global network
+                  2006’dan beri çiçekleri hatıraya dönüştürüyoruz.
                 </h2>
               </Reveal>
 
-              <div className="mt-auto">
-                <ul className="space-y-2">
-                  {networkPoints.map((point) => (
-                    <li
-                      key={point}
-                      className="flex items-center gap-2 font-body text-[15px] font-[370] leading-[1.2]"
-                    >
-                      <CheckIcon className="size-[18px] shrink-0 text-[#ff5500]" />
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
+              <Reveal delay={2} className="mt-8">
+                <p className="max-w-[42rem] font-body text-[18px] leading-[1.4] font-[370] text-[#f7f6f3]/90 sm:text-[20px]">
+                  InterFlower Çiçekçilik &amp; Çikolata, yılların tecrübesini
+                  kaliteli ürün, özenli tasarım ve güvenilir hizmet anlayışıyla
+                  birleştirir.
+                </p>
+              </Reveal>
 
-                <BrandButton
-                  href="/en/become-a-customer"
-                  inverted
-                  className="mt-6"
-                >
-                  Become a customer
-                </BrandButton>
+              <div className="mt-auto pt-10">
+                <p className="max-w-[44rem] font-body text-[16px] leading-[1.45] font-[370] text-[#E8E0D2]/78 sm:text-[18px]">
+                  InterFlower adı, çiçeklerin sınırları aşan evrensel dilinden
+                  ilham alır. Farklı duyguları, özel anları ve kişisel
+                  hikâyeleri çiçeklerle buluşturmayı temsil eder.
+                </p>
+                <p className="mt-6 font-body text-[15px] font-semibold text-[#E6B9C3] sm:text-[17px]">
+                  {designerSignature}
+                </p>
               </div>
             </div>
           </Reveal>
@@ -176,7 +276,7 @@ export function NetworkSection({ id }: { id: string }) {
           <NetworkConnector />
         </div>
 
-        <div className="mt-20 grid gap-y-10 sm:ml-[12.5%] sm:mt-0 sm:w-[75%] sm:pt-12 xl:ml-[4vw] xl:w-[92%] xl:grid-cols-2 xl:gap-x-[clamp(48px,7vw,120px)] xl:gap-y-16 xl:pt-0">
+        <div className="mt-20 grid gap-y-10 sm:ml-[12.5%] sm:mt-0 sm:w-[75%] sm:pt-12 xl:ml-[4vw] xl:w-[92%] xl:grid-cols-2 xl:gap-x-[clamp(48px,7vw,120px)] xl:gap-y-16 xl:pt-8">
           {benefits.map((benefit, index) => (
             <Reveal
               key={benefit.title}
@@ -185,6 +285,10 @@ export function NetworkSection({ id }: { id: string }) {
               <BenefitItem benefit={benefit} />
             </Reveal>
           ))}
+        </div>
+
+        <div className="mt-14 sm:ml-[12.5%] sm:w-[75%] xl:ml-[4vw] xl:w-[92%]">
+          <GoogleReviewsCard />
         </div>
       </div>
     </section>

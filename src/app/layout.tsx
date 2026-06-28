@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const bricolage = localFont({
-  variable: "--font-dv-display",
+  variable: "--font-interflower-display",
   display: "swap",
   src: [
     {
@@ -45,7 +45,7 @@ const bricolage = localFont({
 });
 
 const robotoCondensed = localFont({
-  variable: "--font-dv-body",
+  variable: "--font-interflower-body",
   display: "swap",
   src: "../../public/fonts/dc1a31dd116e0329-s.p.woff2",
   weight: "100 900",

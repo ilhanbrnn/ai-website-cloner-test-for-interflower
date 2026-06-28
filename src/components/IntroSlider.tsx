@@ -79,7 +79,7 @@ export function IntroSlider({ id }: { id: string }) {
       ref={sectionRef}
       id={id}
       aria-labelledby="intro-heading"
-      className="site-grid gap-y-12 bg-[#ede8de] py-[clamp(3rem,calc(2.5rem+2.22222vw),5rem)] pt-[clamp(2.5rem,calc(1.25rem+5.55556vw),7.5rem)]"
+      className="site-grid gap-y-12 bg-[#E8E0D2] py-[clamp(3rem,calc(2.5rem+2.22222vw),5rem)] pt-[clamp(2.5rem,calc(1.25rem+5.55556vw),7.5rem)]"
     >
       <Reveal className="relative col-start-1 col-end-[-2] h-[150px] sm:h-[180px] lg:col-end-9 lg:row-start-1 xl:col-end-12">
         <CurvedLine color="black" className="absolute inset-0" />
@@ -112,7 +112,7 @@ export function IntroSlider({ id }: { id: string }) {
         <Reveal delay={1}>
           <h2
             id="intro-heading"
-            className="mt-8 font-body text-[clamp(1.75rem,calc(1.0625rem+3.05556vw),4.5rem)] leading-[1.05] font-medium tracking-[-0.02em] text-[#141414]"
+            className="mt-8 font-body text-[clamp(1.75rem,calc(1.0625rem+3.05556vw),4.5rem)] leading-[1.05] font-medium tracking-[-0.02em] text-[#171716]"
           >
             <span className="block">Topraktan bukete,</span>
             <span className="block">buketten hatıraya.</span>
@@ -120,7 +120,7 @@ export function IntroSlider({ id }: { id: string }) {
         </Reveal>
 
         <Reveal delay={2}>
-          <p className="mt-6 max-w-[42rem] font-body text-[clamp(17px,2.2vw,21px)] leading-[1.35] font-normal text-[#141414]">
+          <p className="mt-6 max-w-[42rem] font-body text-[clamp(17px,2.2vw,21px)] leading-[1.35] font-normal text-[#171716]">
             {storyDescription}
           </p>
         </Reveal>
@@ -128,7 +128,7 @@ export function IntroSlider({ id }: { id: string }) {
         <Reveal delay={3}>
           <BrandButton
             href="#neden-interflower"
-            className="mt-8 h-9 bg-[#e3dbca] px-[14px] py-0 pr-[10px] text-[16.4px] leading-[1.5] text-[#141414] hover:bg-[#d9cdb5]"
+            className="mt-8 h-9 bg-[#E6B9C3] px-[14px] py-0 pr-[10px] text-[16.4px] leading-[1.5] text-[#171716] hover:bg-[#985A65] hover:text-white"
           >
             Neden InterFlower?
           </BrandButton>
